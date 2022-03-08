@@ -1,9 +1,20 @@
-<h1>
-    Quiz Generator
-</h1>
+<!DOCTYPE html>
 
-<form id="genorator">
-    <p id="numChps">Number of chapters: <input type="text" name="numChps">
-    </p>
-    <input onCLick="validate()" type="button" id="generate" name="generate" value="generate" />
-</form>
+<head>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+    <script src="./validate.js"></script>
+</head>
+
+
+<body>
+    <form id="gen">
+        <p id="numChps">Number of chapters:
+            <input type="text" name="numChps" label="numChps">
+        </p>
+        <input onCLick="validate()" type="button" id="continue" name="continue" value="continue" />
+    </form>
+</body>
