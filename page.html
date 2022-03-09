@@ -13,8 +13,9 @@
 <body>
     <form id="gen">
         <p id="numChps">Number of chapters:
-            <input type="text" name="numChps" label="numChps">
+            <input type="number" name="numChps" label="numChps" min="0">
         </p>
+        <input onClick="probIntake()" type="button" id="numbers" name="numbers" value="numbers" />
         <input onCLick="validate()" type="button" id="continue" name="continue" value="continue" />
     </form>
 </body>
